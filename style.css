@@ -1,0 +1,46 @@
+ .icons{
+    overflow: hidden;
+    }
+    
+ .icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+ .icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    }
+ .icons ul li:last-child{
+	margin-right: 0;}
+    
+    
+ .icons ul li a{
+    background-image: url(sprite-icon.png);
+    background-repeat: no-repeat;
+    background-position: -24px -19px ;
+    background-size: 1400%;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    border: 2px solid grey;
+    display: inline-block;
+    transition: 1s;}
+    
+/* WORKING ON INDIVIDUAL ICONS*/
+
+ .icons ul li:nth-child(1) a{
+    background-position: -309px -589px;}
+ .icons ul li:hover:nth-child(1) a{
+    background-position: -309px -19px;}
+    
+ .icons ul li:nth-child(2) a{
+    background-position: -214px -779px;}
+ .icons ul li:nth-child(2) a:hover{
+    background-position: -214px -209px;}
+
+ .icons ul li:nth-child(3) a{
+    background-position: -24px -684px;}
+ .icons ul li:nth-child(3) a:hover{
+    background-position: -24px -114px;}
